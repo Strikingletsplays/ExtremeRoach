@@ -14,6 +14,18 @@ TextureImporter:
     21300018: roach_sprite_9
     21300020: roach_sprite_10
     21300022: roach_sprite_11
+    21300024: roach_up_0
+    21300026: roach_up_1
+    21300028: roach_up_2
+    21300030: roach_up_3
+    21300032: roach_up_4
+    21300034: roach_up_5
+    21300036: roach_up_6
+    21300038: roach_up_7
+    21300040: roach_up_8
+    21300042: roach_up_9
+    21300044: roach_up_10
+    21300046: roach_up_11
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -118,13 +130,173 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: roach_sprite_0
+      name: roach_up_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 307
+        width: 90
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80cb199812f08114f86e15b46993b205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roach_up_1
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 308
+        width: 98
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 252c06b7f838a98469599033bbd7c5db
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roach_up_2
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 307
+        width: 90
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 090910c55acb0814c9b12f2b98908681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roach_up_3
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 308
+        width: 94
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca6ca8339d0bb34489147c9d464f8121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roach_up_4
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 159
+        width: 84
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aae40273e967f634292683c1a6893d35
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roach_up_5
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 158
+        width: 92
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aed7c8cf146ff0349bf137a41b50ad87
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roach_up_6
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 158
+        width: 84
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c79123f27468084696e511f1840ad23
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roach_up_7
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 158
+        width: 89
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 309bb30c32dc82f4b9099535681c59a3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roach_up_8
       rect:
         serializedVersion: 2
         x: 0
-        y: 300
-        width: 100
-        height: 150
+        y: 136
+        width: 9
+        height: 9
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -132,19 +304,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 21db6f389f1b4f24a8be873d5005285a
+      spriteID: cc2acd3bd0baea744b0251669f8043dc
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roach_sprite_1
+      name: roach_up_9
       rect:
         serializedVersion: 2
-        x: 100
-        y: 300
-        width: 100
-        height: 150
+        x: 101
+        y: 136
+        width: 9
+        height: 9
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -152,99 +324,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5fe002612aa58f845977c15279d879f1
+      spriteID: f889e65cb3c2fde4faf0714e2de7dc71
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roach_sprite_2
-      rect:
-        serializedVersion: 2
-        x: 200
-        y: 300
-        width: 100
-        height: 150
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c414546fe2c59b44593480385ed66b9f
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: roach_sprite_3
-      rect:
-        serializedVersion: 2
-        x: 300
-        y: 300
-        width: 100
-        height: 150
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1b75acb0928e46545b22e316ea1ee6b7
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: roach_sprite_4
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 150
-        width: 100
-        height: 150
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f319a2f055de2cb488985b069ce1e0d6
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: roach_sprite_5
-      rect:
-        serializedVersion: 2
-        x: 100
-        y: 150
-        width: 100
-        height: 150
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d71b49a75769f174ebe7b67a620635dc
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: roach_sprite_6
+      name: roach_up_10
       rect:
         serializedVersion: 2
         x: 200
-        y: 150
-        width: 100
-        height: 150
+        y: 136
+        width: 9
+        height: 9
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -252,19 +344,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3d2318aea13a3074695393cd6e18795b
+      spriteID: 56821c5217a676a4aaf522ec9c715551
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: roach_sprite_7
+      name: roach_up_11
       rect:
         serializedVersion: 2
         x: 300
-        y: 150
-        width: 100
-        height: 150
+        y: 136
+        width: 9
+        height: 9
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -272,87 +364,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6b1f2b9e09b99014a9b6b0ca216fef5b
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: roach_sprite_8
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 100
-        height: 150
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 623d1d0723caf2545aa46b6862e8167f
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: roach_sprite_9
-      rect:
-        serializedVersion: 2
-        x: 100
-        y: 0
-        width: 100
-        height: 150
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6c6f5b876afd4444ebcbb0dc56f4728c
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: roach_sprite_10
-      rect:
-        serializedVersion: 2
-        x: 200
-        y: 0
-        width: 100
-        height: 150
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fc34de8d54728e546aaafd66a4f8e456
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: roach_sprite_11
-      rect:
-        serializedVersion: 2
-        x: 300
-        y: 0
-        width: 100
-        height: 150
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ea20661a9211d254bb88185f96b99aec
+      spriteID: 4500236d931ff284e8e9a893259b6ce1
       vertices: []
       indices: 
       edges: []
