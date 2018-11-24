@@ -47,6 +47,6 @@ TagManager:
   - name: Player
     uniqueID: 3334488207
     locked: 0
-  - name: Clouds
+  - name: buildings
     uniqueID: 3275422467
     locked: 0

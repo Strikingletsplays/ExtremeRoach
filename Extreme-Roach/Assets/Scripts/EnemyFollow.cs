@@ -5,6 +5,7 @@ using UnityEngine;
 public class EnemyFollow : MonoBehaviour {
 
     public float speed;
+    public float radius = 1f;
 
     private Rigidbody2D myRigidbody;
     private bool moving;
@@ -31,37 +32,37 @@ public class EnemyFollow : MonoBehaviour {
 	void Update () {
         
         //Roach dies
-        if(Vector2.Distance(transform.position, target.position) < 3)
+        if(Vector2.Distance(transform.position, target.position) < radius)
         {
             moving = true;
             transform.position = Vector2.MoveTowards(transform.position, target.position, speed * Time.deltaTime);
         }
 
         //
-        if (moving)
-        {
-            timeToMoveCounter -= Time.deltaTime;
-            myRigidbody.velocity = moveDirection;
-
-            if(timeBetweenMoveCounter > 0)
-            {
-                moving = false;
-                timeBetweenMoveCounter = timeBetweenMove;
-            }
+ //       if (moving)
+ //       {
+ //           timetomovecounter -= time.deltatime;
+ //           myrigidbody.velocity = movedirection;
+//
+ //           if(timebetweenmovecounter > 0)
+ //           {
+ //              moving = false;
+ //               timebetweenmovecounter = timebetweenmove;
+ //           }
+ //               
+ //       }
+ //       else
+ //        {
+ //           timebetweenmovecounter -= time.deltatime;
+ //           myrigidbody.velocity = vector2.zero;
+ //           if(timebetweenmovecounter< 0f)
+ //           {
+ //               moving = true;
+ //               timetomovecounter = timetomove;
                 
-        }
-        else
-        {
-            timeBetweenMoveCounter -= Time.deltaTime;
-            myRigidbody.velocity = Vector2.zero;
-            if(timeBetweenMoveCounter< 0f)
-            {
-                moving = true;
-                timeToMoveCounter = timeToMove;
-
-                moveDirection = new Vector3(Random.Range(-1f, 1f) * speed, Random.Range(-1f, 1f) * speed, 0f);
-            }
-        }
+ //               movedirection = new vector3(random.range(-1f, 1f) * speed, random.range(-1f, 1f) * speed, 0f);
+ //           }
+ //       }
     }
 
     private void OnTriggerEnter2D(Collider2D other)
