@@ -145,7 +145,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2bca3c2eb09aa9b47bb0e892c9dce883, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 0.5
+  moveSpeed: 0.7
 --- !u!61 &59406390
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -556,8 +556,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5ca3cedf270a63f43936a40fc9a49c71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.4
-  radius: 1
+  speed: 0.6
+  radius: 1.5
 --- !u!95 &585272723
 Animator:
   serializedVersion: 3
