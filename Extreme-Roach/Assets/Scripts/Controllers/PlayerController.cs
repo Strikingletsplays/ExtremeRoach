@@ -32,6 +32,7 @@ public class PlayerController : MonoBehaviour {
             playerMoving = true;
             lastMove = new Vector2(0f, Input.GetAxisRaw("Vertical"));
         }
+        //fix diagonal moving here
 
         anim.SetFloat("MoveX", Input.GetAxisRaw("Horizontal"));
         anim.SetFloat("MoveY", Input.GetAxisRaw("Vertical"));
