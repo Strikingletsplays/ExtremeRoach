@@ -10,6 +10,9 @@ public class EnemyFollow : MonoBehaviour {
     private Transform playerPos;
     private Player player;
 
+    //animation
+    public Animator anim;
+
     // direction
     private Vector3 v_diff;
     private float atan2;
@@ -22,17 +25,19 @@ public class EnemyFollow : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        
-        if(Vector2.Distance(transform.position, playerPos.position) < radius)
+
+       if(Vector2.Distance(transform.position, playerPos.position) < radius)
         {
+            anim.SetTrigger("HumanWalk");
+
             transform.position = Vector2.MoveTowards(transform.position, playerPos.position, speed * Time.deltaTime);
 
             //rotating the human
-            //transform.LookAt(playerPos.position, transform.up);
             v_diff = (playerPos.position - transform.position);
             atan2 = Mathf.Atan2(v_diff.y, v_diff.x);
-            transform.rotation = Quaternion.Euler(0f, 0f, atan2 * Mathf.Rad2Deg);
-        }
+            transform.rotation = Quaternion.Euler(0f, 0f, atan2 * Mathf.Rad2Deg - 90);
+        } else
+        anim.SetTrigger("HumanIdle");
     }
 
     void OnTriggerEnter2D(Collider2D other )
