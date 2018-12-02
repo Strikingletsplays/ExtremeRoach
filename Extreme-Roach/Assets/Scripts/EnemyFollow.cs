@@ -28,7 +28,7 @@ public class EnemyFollow : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-       if (Vector2.Distance(transform.position, playerPos.position) < radius)
+        if (Vector2.Distance(transform.position, playerPos.position) < radius)
         {
             //rotating the human
             v_diff = (playerPos.position - transform.position);
@@ -40,16 +40,24 @@ public class EnemyFollow : MonoBehaviour {
 
             //moving to target
             transform.position = Vector2.MoveTowards(transform.position, playerPos.position, speed * Time.deltaTime);
-        } else
+        }
+        else
+        {
+            //restarting the animation
+            anim.gameObject.SetActive(false); //(problem) stops Idle animation completely
+            anim.gameObject.SetActive(true);
             anim.SetTrigger("HumanIdle");
+
+        }
     }
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Player")){
+        if (other.CompareTag("Player"))
+        {
             //Roach loses health
             player.health--;
-            //Moves player to respawn location
+            //Moves Roach to respawn Position
             playerPos.transform.position = StartState.transform.position;
             //Roach dies
             if (player.health == 0) { 

@@ -356,6 +356,11 @@ Prefab:
       propertyPath: m_Name
       value: test Map
       objectReference: {fileID: 0}
+    - target: {fileID: 114394923496268516, guid: 868f132829712fc438d4757e3c11fccf,
+        type: 2}
+      propertyPath: Orientation
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 868f132829712fc438d4757e3c11fccf, type: 2}
   m_IsPrefabAsset: 0
@@ -421,7 +426,7 @@ Camera:
   m_GameObject: {fileID: 471428440}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
+  m_ClearFlags: 4
   m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
   m_projectionMatrixMode: 1
   m_SensorSize: {x: 36, y: 24}
