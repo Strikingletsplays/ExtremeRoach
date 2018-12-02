@@ -9,11 +9,13 @@ public class EnemyFollow : MonoBehaviour {
     public float radius = 1f;
     private Transform playerPos;
     private Player player;
+    private Transform humanP;
+    private Player human;
 
     //animation
     public Animator anim;
 
-    //For rotatation
+    //For rotation
     private Vector3 v_diff;
     private float atan2;
 
@@ -24,12 +26,14 @@ public class EnemyFollow : MonoBehaviour {
     void Start () {
         player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
         playerPos = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
+        anim.SetTrigger("HumanIdle");
     }
 	
 	// Update is called once per frame
 	void Update () {
         if (Vector2.Distance(transform.position, playerPos.position) < radius)
         {
+            GetComponentInChildren<Animator>().SetBool("isWalking", true);
             //rotating the human
             v_diff = (playerPos.position - transform.position);
             atan2 = Mathf.Atan2(v_diff.y, v_diff.x);
@@ -43,13 +47,13 @@ public class EnemyFollow : MonoBehaviour {
         }
         else
         {
+            GetComponentInChildren<Animator>().SetBool("isWalking", false);
             //restarting the animation
             anim.gameObject.SetActive(false); //(problem) stops Idle animation completely
+            //anim.Play("HumanIdle");
             anim.gameObject.SetActive(true);
-            anim.SetTrigger("HumanIdle");
-
         }
-    }
+        }
 
     void OnTriggerEnter2D(Collider2D other)
     {
