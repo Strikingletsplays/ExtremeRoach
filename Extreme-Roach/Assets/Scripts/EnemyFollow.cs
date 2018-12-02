@@ -48,11 +48,11 @@ public class EnemyFollow : MonoBehaviour {
     {
         if (other.CompareTag("Player")){
             //Roach loses health
-            player.helth--;
+            player.health--;
             //Moves player to respawn location
             playerPos.transform.position = StartState.transform.position;
             //Roach dies
-            if (player.helth == 0) { 
+            if (player.health == 0) { 
                 //Roach dies
                 SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
             }

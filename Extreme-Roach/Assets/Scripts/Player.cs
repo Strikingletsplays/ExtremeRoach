@@ -6,7 +6,8 @@ using UnityEngine.UI;
 
 public class Player : MonoBehaviour {
 
-    public int helth = 1;
+    public int health = 3;
+    public Text healthText;
 
 	// Use this for initialization
 	void Start () {
@@ -15,6 +16,6 @@ public class Player : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-
+        healthText.text = "Health: " + health;
 	}
 }
