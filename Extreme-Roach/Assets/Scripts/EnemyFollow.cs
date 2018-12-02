@@ -6,7 +6,7 @@ using UnityEngine;
 public class EnemyFollow : MonoBehaviour {
 
     public float speed;
-    public float radius = 1f;
+    public float radius = 2.5f;
     private Transform playerPos;
     private Player player;
     private Transform humanP;

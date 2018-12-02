@@ -45,9 +45,18 @@ TagManager:
   - name: Ground
     uniqueID: 159588279
     locked: 0
-  - name: Player
-    uniqueID: 3334488207
+  - name: Roads
+    uniqueID: 1251581403
     locked: 0
   - name: buildings
     uniqueID: 3275422467
+    locked: 0
+  - name: Player
+    uniqueID: 3334488207
+    locked: 0
+  - name: cars
+    uniqueID: 4244731791
+    locked: 0
+  - name: Trees
+    uniqueID: 2164809609
     locked: 0
