@@ -50,7 +50,6 @@ public class EnemyFollow : MonoBehaviour {
             GetComponentInChildren<Animator>().SetBool("isWalking", false);
             //restarting the animation
             anim.gameObject.SetActive(false); //(problem) stops Idle animation completely
-            //anim.Play("HumanIdle");
             anim.gameObject.SetActive(true);
         }
         }
