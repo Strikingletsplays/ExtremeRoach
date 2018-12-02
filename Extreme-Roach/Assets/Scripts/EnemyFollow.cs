@@ -13,9 +13,12 @@ public class EnemyFollow : MonoBehaviour {
     //animation
     public Animator anim;
 
-    // direction
+    //For rotatation
     private Vector3 v_diff;
     private float atan2;
+
+    //Respawning
+    public Transform StartState;
 
     // Use this for initialization
     void Start () {
@@ -25,28 +28,34 @@ public class EnemyFollow : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-
-       if(Vector2.Distance(transform.position, playerPos.position) < radius)
+       if (Vector2.Distance(transform.position, playerPos.position) < radius)
         {
-            anim.SetTrigger("HumanWalk");
-
-            transform.position = Vector2.MoveTowards(transform.position, playerPos.position, speed * Time.deltaTime);
-
             //rotating the human
             v_diff = (playerPos.position - transform.position);
             atan2 = Mathf.Atan2(v_diff.y, v_diff.x);
             transform.rotation = Quaternion.Euler(0f, 0f, atan2 * Mathf.Rad2Deg - 90);
+
+            //change Animation
+            anim.SetTrigger("HumanWalk");
+
+            //moving to target
+            transform.position = Vector2.MoveTowards(transform.position, playerPos.position, speed * Time.deltaTime);
         } else
-        anim.SetTrigger("HumanIdle");
+            anim.SetTrigger("HumanIdle");
     }
 
-    void OnTriggerEnter2D(Collider2D other )
+    void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Player"))
-        {
+        if (other.CompareTag("Player")){
+            //Roach loses health
+            player.helth--;
+            //Moves player to respawn location
+            playerPos.transform.position = StartState.transform.position;
             //Roach dies
-            //player.helth--;
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            if (player.helth == 0) { 
+                //Roach dies
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            }
         }
     }
 }
