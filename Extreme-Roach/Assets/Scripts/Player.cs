@@ -6,19 +6,27 @@ using UnityEngine.UI;
 
 public class Player : MonoBehaviour {
 
-    private Player player;
-    public int health = 3;
-    public Text healthText;
-    public Text into;
+    float dirX, dirY;
+    Rigidbody2D rb;
+    public float moveSpeed = 2f;
 
-    // Use this for initialization
-    void Start () {
-        player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
+    void Start() {
+
+        rb = GetComponent<Rigidbody2D>();
+}
+
+    void Update() {
+
+        dirX = Input.GetAxis("Horizontal");
+        dirY = Input.GetAxis("Vertical");
+
     }
-	
-	// Update is called once per frame
-	void Update () {
-        healthText.text = "Health: " + health;
-	}
 
+    void FixedUpdate()
+    {
+        rb.velocity = new Vector2(dirX * moveSpeed, dirY * moveSpeed);
+    }
+
+
+   
 }
