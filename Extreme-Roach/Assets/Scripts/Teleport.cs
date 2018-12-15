@@ -15,7 +15,7 @@ public class Teleport : MonoBehaviour {
     private void OnTriggerStay2D(Collider2D col)
     {
         ui.SetActive(true);
-        Debug.Log(objToTP.gameObject.tag);
+        //Debug.Log(objToTP.gameObject.tag);
         if ((objToTP.gameObject.tag == "Player") && Input.GetKeyDown(KeyCode.F))
         {
             objToTP.transform.position = tpLoc.transform.position;
