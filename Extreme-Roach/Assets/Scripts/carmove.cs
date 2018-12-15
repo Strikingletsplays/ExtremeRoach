@@ -29,8 +29,7 @@ public class carmove : MonoBehaviour {
             //check to see if we have anymore patrol points - if not go back to the beginning
             if (currentPatrolIndex  < patrolPoints.Length)
             {
-                currentPatrolIndex++;
-                
+                currentPatrolIndex++; 
             }
             else
             {
