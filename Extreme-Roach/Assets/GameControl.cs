@@ -2,15 +2,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GameControlScript : MonoBehaviour {
+public class GameControlScript : MonoBehaviour
+{
 
     public GameObject roach1, roach2, roach3, gameOver;
 
-    public static int health { get; internal set; }
 
-    public static health;
 
-        void Start ()
+    public static int health;
+
+    void Start()
     {
         health = 3;
         roach1.gameObject.SetActive(true);
@@ -27,22 +28,22 @@ public class GameControlScript : MonoBehaviour {
 
         switch (health)
         {
-            case 3;
+            case 3:
                 roach1.gameObject.SetActive(true);
                 roach2.gameObject.SetActive(true);
                 roach3.gameObject.SetActive(true);
                 break;
-            case 2;
+            case 2:
                 roach1.gameObject.SetActive(true);
                 roach2.gameObject.SetActive(true);
                 roach3.gameObject.SetActive(false);
                 break;
-            case 1;
+            case 1:
                 roach1.gameObject.SetActive(true);
                 roach2.gameObject.SetActive(false);
                 roach3.gameObject.SetActive(false);
                 break;
-            case 0;
+            case 0:
                 roach1.gameObject.SetActive(false);
                 roach2.gameObject.SetActive(false);
                 roach3.gameObject.SetActive(false);
