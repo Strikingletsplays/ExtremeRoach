@@ -4,31 +4,47 @@ using UnityEngine;
 using UnityEngine.AI;
 
 public class carmove : MonoBehaviour {
-    [SerializeField]
-    public Transform _destination;
 
-    NavMeshAgent _navMeshAgent;
+    public Transform[] patrolPoints;
+    public float speed;
+    Transform currentPatrolPoint;
+    int currentPatrolIndex;
+
     // Use this for initialization
     void Start() {
-        _navMeshAgent = this.GetComponent<NavMeshAgent>();
-
-        if (_navMeshAgent == null)
-        {
-            Debug.LogError("The nav mesh agent component is not attached to " + gameObject.name);
-        }
-        else
-        {
-            SetDestination();
-        }
+        currentPatrolIndex = 0;
+        currentPatrolPoint = patrolPoints [currentPatrolIndex];
     }
 
-    private void SetDestination()
+    void Update()
     {
-        if (_destination != null)
+        transform.Translate(Vector3.up * Time.deltaTime * speed);
+        // check to see if we have reached the patrol point
+        if (Vector3.Distance(transform.position, currentPatrolPoint.position) < .1f)
         {
-            Vector3 targetVector = _destination.transform.position;
-            _navMeshAgent.SetDestination(targetVector);
-        }
+            //we have reached the patrol point - get the next one
+            //check to see if we have anymore patrol points - if not go back to the beginning
+            if (currentPatrolIndex + 1 < patrolPoints.Length)
+            {
+                currentPatrolIndex++;
+            }
+            else
+            {
+                currentPatrolIndex = 0;
+            }
+            currentPatrolPoint = patrolPoints[currentPatrolIndex];        }
+        // turn to face the current patrol point
+        //finding the direction vector that points to the patrolpoint
+        Vector3 patrolPointDir = currentPatrolPoint.position - transform.position;
+        // figure out the rotation in degrees that we need to turn towards
+        float angle = Mathf.Atan2(patrolPointDir.y, patrolPointDir.x) * Mathf.Rad2Deg - 90f;
+        //made the rotation that we need to face
+        Quaternion q = Quaternion.AngleAxis(angle, Vector3.forward);
+
+        // apply the rotation to out transform
+
+        transform.rotation = Quaternion.RotateTowards(transform.rotation, q, 180f);
     }
-	
+
+    
 }
