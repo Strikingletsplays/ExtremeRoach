@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.SceneManagement;
 
 public class carmove : MonoBehaviour {
 
@@ -10,17 +11,24 @@ public class carmove : MonoBehaviour {
     Transform currentPatrolPoint;
     int currentPatrolIndex;
 
+    private Player player;
+    private Transform playerPos;
+    public Transform StartState;
+
     // Use this for initialization
     void Start() {
+
         currentPatrolIndex = 0;
-        currentPatrolPoint = patrolPoints [currentPatrolIndex];
-        //Debug.Log(currentPatrolIndex);
+        currentPatrolPoint = patrolPoints [0];
+        
+        //Player control (for killing and changing health)
+        player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
+        playerPos = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
     }
 
     void Update()
     {
-        
-        transform.Translate(Vector3.up * Time.deltaTime * speed);
+        transform.Translate(Vector2.up * Time.deltaTime * speed);
         // check to see if we have reached the patrol point
         if (Vector2.Distance(transform.position, currentPatrolPoint.position) < .1f)
         {
@@ -39,7 +47,7 @@ public class carmove : MonoBehaviour {
         }
         // turn to face the current patrol point
         //finding the direction vector that points to the patrolpoint
-        Vector3 patrolPointDir = currentPatrolPoint.position - transform.position;
+        Vector2 patrolPointDir = currentPatrolPoint.position - transform.position;
         // figure out the rotation in degrees that we need to turn towards
         float angle = Mathf.Atan2(patrolPointDir.y, patrolPointDir.x) * Mathf.Rad2Deg - 90f;
         //made the rotation that we need to face
@@ -50,5 +58,21 @@ public class carmove : MonoBehaviour {
         transform.rotation = Quaternion.RotateTowards(transform.rotation, q, 180f);
     }
 
-    
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            //Roach loses health
+            player.health--;
+            //Moves Roach to respawn Position
+            playerPos.transform.position = StartState.transform.position;
+            //Roach dies
+            if (player.health == 0)
+            {
+                //Roach dies
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            }
+        }
+    }
+
 }
