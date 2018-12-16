@@ -46,7 +46,6 @@ public class Player : MonoBehaviour {
                 health2.gameObject.SetActive(false);
                 health3.gameObject.SetActive(false);
                // gameOver.gameObject.SetActive(true);
-                Time.timeScale = 0;
                 break;
         }
     }
