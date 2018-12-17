@@ -27,6 +27,8 @@ public class Teleport : MonoBehaviour {
     private void Update()
     {
         if (objToTP.GetComponent<Rigidbody2D>().IsSleeping())
+        {
             objToTP.GetComponent<Rigidbody2D>().WakeUp();
+        }
     }
 }
