@@ -125,7 +125,7 @@ GameObject:
   - component: {fileID: 213928}
   - component: {fileID: 213927}
   m_Layer: 0
-  m_Name: roguelikeSheet_transparent_150 (13)
+  m_Name: 14
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -221,9 +221,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -960479089
-  m_SortingLayer: 4
-  m_SortingOrder: 0
+  m_SortingLayerID: 159588279
+  m_SortingLayer: 1
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300300, guid: afee776067186f047bf9e0c5b93840dc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -354,7 +354,7 @@ GameObject:
   m_Component:
   - component: {fileID: 32719090}
   m_Layer: 0
-  m_Name: teleportPos
+  m_Name: 8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -673,7 +673,7 @@ GameObject:
   m_Component:
   - component: {fileID: 59368233}
   m_Layer: 0
-  m_Name: teleportPos
+  m_Name: 14
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2248,7 +2248,7 @@ GameObject:
   - component: {fileID: 160537641}
   - component: {fileID: 160537643}
   m_Layer: 0
-  m_Name: roguelikeSheet_transparent_150 (4)
+  m_Name: 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2318,9 +2318,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -960479089
-  m_SortingLayer: 4
-  m_SortingOrder: 0
+  m_SortingLayerID: 159588279
+  m_SortingLayer: 1
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300300, guid: afee776067186f047bf9e0c5b93840dc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -3433,7 +3433,7 @@ GameObject:
   - component: {fileID: 269684242}
   - component: {fileID: 269684241}
   m_Layer: 0
-  m_Name: roguelikeSheet_transparent_150 (12)
+  m_Name: 13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3529,9 +3529,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -960479089
-  m_SortingLayer: 4
-  m_SortingOrder: 0
+  m_SortingLayerID: 159588279
+  m_SortingLayer: 1
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300300, guid: afee776067186f047bf9e0c5b93840dc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -3553,7 +3553,7 @@ GameObject:
   m_Component:
   - component: {fileID: 270477533}
   m_Layer: 0
-  m_Name: teleportPos
+  m_Name: 3tp
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3662,7 +3662,7 @@ GameObject:
   m_Component:
   - component: {fileID: 277972058}
   m_Layer: 0
-  m_Name: teleportPos
+  m_Name: 5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4751,7 +4751,7 @@ GameObject:
   m_Component:
   - component: {fileID: 380444269}
   m_Layer: 0
-  m_Name: teleportPos
+  m_Name: 17
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5078,7 +5078,7 @@ GameObject:
   m_Component:
   - component: {fileID: 427224702}
   m_Layer: 0
-  m_Name: teleportPos
+  m_Name: 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5369,7 +5369,7 @@ GameObject:
   m_Component:
   - component: {fileID: 452070768}
   m_Layer: 0
-  m_Name: teleportPos
+  m_Name: 7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5402,7 +5402,7 @@ GameObject:
   - component: {fileID: 453181784}
   - component: {fileID: 453181783}
   m_Layer: 0
-  m_Name: roguelikeSheet_transparent_150 (15)
+  m_Name: 16
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5498,9 +5498,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -960479089
-  m_SortingLayer: 4
-  m_SortingOrder: 0
+  m_SortingLayerID: 159588279
+  m_SortingLayer: 1
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300300, guid: afee776067186f047bf9e0c5b93840dc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -6580,7 +6580,7 @@ GameObject:
   - component: {fileID: 560960661}
   - component: {fileID: 560960660}
   m_Layer: 0
-  m_Name: roguelikeSheet_transparent_150 (11)
+  m_Name: 12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6676,9 +6676,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -960479089
-  m_SortingLayer: 4
-  m_SortingOrder: 0
+  m_SortingLayerID: 159588279
+  m_SortingLayer: 1
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300300, guid: afee776067186f047bf9e0c5b93840dc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -6891,7 +6891,7 @@ GameObject:
   - component: {fileID: 580180360}
   - component: {fileID: 580180359}
   m_Layer: 0
-  m_Name: roguelikeSheet_transparent_150 (7)
+  m_Name: 8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6987,9 +6987,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -960479089
-  m_SortingLayer: 4
-  m_SortingOrder: 0
+  m_SortingLayerID: 159588279
+  m_SortingLayer: 1
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300300, guid: afee776067186f047bf9e0c5b93840dc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -8162,7 +8162,7 @@ GameObject:
   m_Component:
   - component: {fileID: 669024159}
   m_Layer: 0
-  m_Name: teleportPos
+  m_Name: 1tp
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8176,7 +8176,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 669024158}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 28.5, y: 2.5, z: 0.13824812}
+  m_LocalPosition: {x: 27.89, y: 2.594, z: 0.13824812}
   m_LocalScale: {x: 16.666668, y: 2.5641026, z: 1}
   m_Children: []
   m_Father: {fileID: 1821703397}
@@ -8195,7 +8195,7 @@ GameObject:
   - component: {fileID: 670158969}
   - component: {fileID: 670158968}
   m_Layer: 0
-  m_Name: roguelikeSheet_transparent_150 (14)
+  m_Name: 15
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8291,9 +8291,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -960479089
-  m_SortingLayer: 4
-  m_SortingOrder: 0
+  m_SortingLayerID: 159588279
+  m_SortingLayer: 1
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300300, guid: afee776067186f047bf9e0c5b93840dc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -9478,7 +9478,7 @@ GameObject:
   m_Component:
   - component: {fileID: 759870881}
   m_Layer: 0
-  m_Name: teleportPos
+  m_Name: 6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10580,7 +10580,7 @@ GameObject:
   m_Component:
   - component: {fileID: 837837727}
   m_Layer: 0
-  m_Name: teleportPos
+  m_Name: 18
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10692,7 +10692,7 @@ GameObject:
   - component: {fileID: 855634122}
   - component: {fileID: 855634121}
   m_Layer: 0
-  m_Name: roguelikeSheet_transparent_150 (10)
+  m_Name: 11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10788,9 +10788,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -960479089
-  m_SortingLayer: 4
-  m_SortingOrder: 0
+  m_SortingLayerID: 159588279
+  m_SortingLayer: 1
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300300, guid: afee776067186f047bf9e0c5b93840dc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -11503,7 +11503,7 @@ GameObject:
   m_Component:
   - component: {fileID: 901919692}
   m_Layer: 0
-  m_Name: teleportPos
+  m_Name: 16
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12456,7 +12456,7 @@ GameObject:
   m_Component:
   - component: {fileID: 970597427}
   m_Layer: 0
-  m_Name: teleportPos
+  m_Name: 9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12784,7 +12784,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &993889266
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13238,7 +13238,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1051597799}
   m_Layer: 0
-  m_Name: teleportPos
+  m_Name: 11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13429,7 +13429,7 @@ GameObject:
   - component: {fileID: 1063996816}
   - component: {fileID: 1063996817}
   m_Layer: 0
-  m_Name: roguelikeSheet_transparent_150 (5)
+  m_Name: 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13484,9 +13484,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -960479089
-  m_SortingLayer: 4
-  m_SortingOrder: 0
+  m_SortingLayerID: 159588279
+  m_SortingLayer: 1
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300300, guid: afee776067186f047bf9e0c5b93840dc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -13940,7 +13940,7 @@ GameObject:
   - component: {fileID: 1109349405}
   - component: {fileID: 1109349404}
   m_Layer: 0
-  m_Name: roguelikeSheet_transparent_150 (6)
+  m_Name: 7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14036,9 +14036,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -960479089
-  m_SortingLayer: 4
-  m_SortingOrder: 0
+  m_SortingLayerID: 159588279
+  m_SortingLayer: 1
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300300, guid: afee776067186f047bf9e0c5b93840dc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -15134,7 +15134,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1202309259}
   m_Layer: 0
-  m_Name: teleportPos
+  m_Name: 13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15164,7 +15164,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1209478162}
   m_Layer: 0
-  m_Name: teleportPos
+  m_Name: 12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17296,7 +17296,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1458019907}
   m_Layer: 0
-  m_Name: teleportPos
+  m_Name: 15
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17824,9 +17824,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -960479089
-  m_SortingLayer: 4
-  m_SortingOrder: 0
+  m_SortingLayerID: 159588279
+  m_SortingLayer: 1
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300300, guid: afee776067186f047bf9e0c5b93840dc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -20100,7 +20100,7 @@ GameObject:
   - component: {fileID: 1657115141}
   - component: {fileID: 1657115140}
   m_Layer: 0
-  m_Name: roguelikeSheet_transparent_150 (17)
+  m_Name: 18
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -20196,9 +20196,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -960479089
-  m_SortingLayer: 4
-  m_SortingOrder: 0
+  m_SortingLayerID: 159588279
+  m_SortingLayer: 1
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300300, guid: afee776067186f047bf9e0c5b93840dc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -21203,7 +21203,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1756680728}
   m_Layer: 0
-  m_Name: teleportPos
+  m_Name: 10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -21345,7 +21345,7 @@ GameObject:
   - component: {fileID: 1778608023}
   - component: {fileID: 1778608022}
   m_Layer: 0
-  m_Name: roguelikeSheet_transparent_150 (16)
+  m_Name: 17
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -21441,9 +21441,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -960479089
-  m_SortingLayer: 4
-  m_SortingOrder: 0
+  m_SortingLayerID: 159588279
+  m_SortingLayer: 1
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300300, guid: afee776067186f047bf9e0c5b93840dc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -21824,9 +21824,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -960479089
-  m_SortingLayer: 4
-  m_SortingOrder: 0
+  m_SortingLayerID: 159588279
+  m_SortingLayer: 1
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300300, guid: afee776067186f047bf9e0c5b93840dc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -21987,7 +21987,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1854130081}
   m_Layer: 0
-  m_Name: teleportPos
+  m_Name: 2tp
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -22208,7 +22208,7 @@ GameObject:
   - component: {fileID: 1893846532}
   - component: {fileID: 1893846531}
   m_Layer: 0
-  m_Name: roguelikeSheet_transparent_150 (3)
+  m_Name: 6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -22304,9 +22304,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -960479089
-  m_SortingLayer: 4
-  m_SortingOrder: 0
+  m_SortingLayerID: 159588279
+  m_SortingLayer: 1
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300300, guid: afee776067186f047bf9e0c5b93840dc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -22489,7 +22489,7 @@ GameObject:
   - component: {fileID: 1924286071}
   - component: {fileID: 1924286070}
   m_Layer: 0
-  m_Name: roguelikeSheet_transparent_150 (2)
+  m_Name: 5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -22585,9 +22585,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -960479089
-  m_SortingLayer: 4
-  m_SortingOrder: 0
+  m_SortingLayerID: 159588279
+  m_SortingLayer: 1
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300300, guid: afee776067186f047bf9e0c5b93840dc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -22770,7 +22770,7 @@ GameObject:
   - component: {fileID: 1953399305}
   - component: {fileID: 1953399304}
   m_Layer: 0
-  m_Name: roguelikeSheet_transparent_150 (8)
+  m_Name: 9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -22866,9 +22866,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -960479089
-  m_SortingLayer: 4
-  m_SortingOrder: 0
+  m_SortingLayerID: 159588279
+  m_SortingLayer: 1
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300300, guid: afee776067186f047bf9e0c5b93840dc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -23298,7 +23298,7 @@ GameObject:
   - component: {fileID: 2011521030}
   - component: {fileID: 2011521029}
   m_Layer: 0
-  m_Name: roguelikeSheet_transparent_150 (9)
+  m_Name: 10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -23394,9 +23394,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -960479089
-  m_SortingLayer: 4
-  m_SortingOrder: 0
+  m_SortingLayerID: 159588279
+  m_SortingLayer: 1
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300300, guid: afee776067186f047bf9e0c5b93840dc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
