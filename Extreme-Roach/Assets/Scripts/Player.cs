@@ -8,6 +8,7 @@ public class Player : MonoBehaviour {
 
     private Player player;
     public GameObject health1, health2, health3;
+    public GameObject status;
     public int health = 3;
     public Text healthText;
     public Text into;
@@ -19,10 +20,10 @@ public class Player : MonoBehaviour {
         health3.gameObject.SetActive(true);
         player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
     }
-	
-	// Update is called once per frame
-	void Update () {
-       // healthText.text = "Health: " + health;
+
+    // Update is called once per frame
+    void Update() {
+        // healthText.text = "Health: " + health;
 
         switch (health)
         {
@@ -45,9 +46,12 @@ public class Player : MonoBehaviour {
                 health1.gameObject.SetActive(false);
                 health2.gameObject.SetActive(false);
                 health3.gameObject.SetActive(false);
-               // gameOver.gameObject.SetActive(true);
+                // gameOver.gameObject.SetActive(true);
                 break;
         }
+        //Update status
+        //if (player reaches new area){
+        //Update status
+        //}
     }
-    
 }

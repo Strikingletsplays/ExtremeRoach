@@ -17,7 +17,6 @@ public class carmove : MonoBehaviour {
 
     // Use this for initialization
     void Start() {
-
         currentPatrolIndex = 0;
         currentPatrolPoint = patrolPoints [0];
         
@@ -25,6 +24,7 @@ public class carmove : MonoBehaviour {
         player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
         playerPos = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
     }
+
 
     void Update()
     {

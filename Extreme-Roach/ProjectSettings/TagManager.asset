@@ -48,14 +48,17 @@ TagManager:
   - name: Roads
     uniqueID: 1251581403
     locked: 0
-  - name: buildings
-    uniqueID: 3275422467
-    locked: 0
   - name: Player
     uniqueID: 3334488207
     locked: 0
+  - name: fences
+    uniqueID: 1763943515
+    locked: 0
   - name: cars
     uniqueID: 4244731791
+    locked: 0
+  - name: buildings
+    uniqueID: 3275422467
     locked: 0
   - name: Trees
     uniqueID: 2164809609
