@@ -1,5 +1,7 @@
 ﻿using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI;
 
 public class Teleport : MonoBehaviour {
 
@@ -15,7 +17,7 @@ public class Teleport : MonoBehaviour {
     private void OnTriggerStay2D(Collider2D col)
     {
         ui.SetActive(true);
-        Debug.Log(objToTP.gameObject.tag);
+        //Debug.Log(objToTP.gameObject.tag);
         if ((objToTP.gameObject.tag == "Player") && Input.GetKeyDown(KeyCode.F))
         {
             objToTP.transform.position = tpLoc.transform.position;
@@ -27,6 +29,8 @@ public class Teleport : MonoBehaviour {
     private void Update()
     {
         if (objToTP.GetComponent<Rigidbody2D>().IsSleeping())
+        {
             objToTP.GetComponent<Rigidbody2D>().WakeUp();
+        }
     }
 }
