@@ -8,4 +8,10 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/Tutorial Level.unity
+    guid: 3ab5248d6b94cd04a911777637c1d1e7
+  - enabled: 1
+    path: Assets/Scenes/Ending.unity
+    guid: d460231d19aa23b4498a225c94462c82
   m_configObjects: {}

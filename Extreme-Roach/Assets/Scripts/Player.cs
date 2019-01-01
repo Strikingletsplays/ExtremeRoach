@@ -8,9 +8,10 @@ public class Player : MonoBehaviour {
 
     private Player player;
     public GameObject health1, health2, health3;
+    public GameObject EndObject;
     public int health = 3;
-    public Text healthText;
-    public Text into;
+    public int foodobj;
+    public Text status;
 
     // Use this for initialization
     void Start () {
@@ -18,6 +19,8 @@ public class Player : MonoBehaviour {
         health2.gameObject.SetActive(true);
         health3.gameObject.SetActive(true);
         player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
+        EndObject = GameObject.FindGameObjectWithTag("EndObject");
+        foodobj = 3;
     }
 	
 	// Update is called once per frame
@@ -48,6 +51,20 @@ public class Player : MonoBehaviour {
                // gameOver.gameObject.SetActive(true);
                 break;
         }
+
+        //if food collected
+        if (foodobj == 0 || foodobj < 0)
+        {
+            status.text = "Go to the construction site! (HINT: Find the flag!!)";
+        }
     }
-    
+    private void OnTriggerStay2D(Collider2D other)
+    {
+        if (other.CompareTag("EndObject"))
+        {
+            if (foodobj == 0 || foodobj < 0)
+             SceneManager.LoadScene("Ending");
+        }
+    }
+
 }
