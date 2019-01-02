@@ -27041,7 +27041,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Press (f) to collect the delicious food!
+  m_Text: 'Press (F) to collect the delicious food!
 
 '
 --- !u!222 &1963656855
@@ -28755,7 +28755,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.9339623, g: 0.8142347, b: 0.030838395, a: 1}
+  m_Color: {r: 0.8018868, g: 0.61555624, b: 0, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -28765,7 +28765,7 @@ MonoBehaviour:
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 40
-    m_FontStyle: 3
+    m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 3
     m_MaxSize: 40
